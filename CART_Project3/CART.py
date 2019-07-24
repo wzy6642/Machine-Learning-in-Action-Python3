@@ -282,7 +282,7 @@ def prune(tree, testData):
     if not isTree(tree['left']) and not isTree(tree['right']):
         lSet, rSet = binSplitDataSet(testData, tree['spInd'], tree['spVal'])
         # 计算没有合并的误差
-        errorNoMerge = np.sum(np.power(lSet[:, -1] - tree['left'], 2)) + np.sum(np.power(rSet[:, 1] - tree['right'], 2))
+        errorNoMerge = np.sum(np.power(lSet[:, -1] - tree['left'], 2)) + np.sum(np.power(rSet[:, -1] - tree['right'], 2))
         # 计算合并的均值
         treeMean = (tree['left'] + tree['right']) / 2.0
         # 计算合并的误差
