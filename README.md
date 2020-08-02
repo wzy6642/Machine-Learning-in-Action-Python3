@@ -8,5 +8,5 @@
 如果代码有任何问题欢迎与我联系，联系方式：807698462@qq.com
 
 ## 版本更新记录
-2019/2/9 在kNN_Project1文件夹下更新了鸢尾花多分类任务的sklearn包实现，文件命名为Chap_1.py
-2020/8/2 
+* 2019/2/9 在kNN_Project1文件夹下更新了鸢尾花多分类任务的sklearn包实现，文件命名为Chap_1.py
+* 2020/8/2 NeuralNetwork_Project1的代码是对《Python神经网络编程》这本书中代码的整理
